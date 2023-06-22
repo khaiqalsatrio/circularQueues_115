@@ -69,3 +69,14 @@ public:
 			cout << "queue is empty\n";
 			return;
 		}
+
+		cout << "\nElement is the queue are....\n";
+
+		//jika FRONT_position <= REAR_position, integrasi dari FRONT hingga REAR
+		if (FRONT_position <= REAR_position) {
+			while (FRONT_position <= REAR_position) {
+				cout << Queue_array[FRONT_position] << "	";
+				FRONT_position++;
+			}
+			cout << endl;
+		}
