@@ -80,3 +80,9 @@ public:
 			}
 			cout << endl;
 		}
+		else {
+			//jika FRONT_position > REAR_position, integrasi dari FRONT hingga akhir array
+			while (FRONT_position <= max - 1) {
+				cout << Queue_array[FRONT_position] << "	";
+				FRONT_position++;
+			}
