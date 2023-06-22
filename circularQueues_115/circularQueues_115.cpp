@@ -113,3 +113,6 @@ int main() {
 			cout << "Enter your Choice (1-4): ";
 			cin >> ch;
 			cout << endl;
+
+			switch (ch) {
+			case '1': {
